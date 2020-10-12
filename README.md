@@ -978,6 +978,7 @@ Java实现，推拉模式都是支持，吞吐量逊于Kafka。可以保证消�
 * [官方网站](http://kafka.apache.org/)
 * [《各消息队列对比，Kafka深度解析，众人推荐，精彩好文！》](https://blog.csdn.net/allthesametome/article/details/47362451)
 * [《Kafka分区机制介绍与示例》](http://lxw1234.com/archives/2015/10/538.htm)
+* [《图解Kafka消息是被怎么存储的？》](https://cloud.tencent.com/developer/article/1421267)
 
 ### Redis 消息推送
 
