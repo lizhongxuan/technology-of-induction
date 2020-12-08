@@ -1,9 +1,57 @@
 <h1>《技术归纳》</h1>
 
+* 一. 算法 
+* 二. 数据结构
+* 三. 并发
+* 四. 操作系统
+* 五. 云原生
+* 六. golang
+* 七. 中间件
+* 八. 分布式设计
+* 九. 监控
+* 十. 数据库
+* 十一. 网络
+* 十二. linux
+* 十三. 架构
+* 十四. 设计模式
+* 十五. 微服务
+* 十六. 性能
+* 十七. 安全
+
+---------------
+* [一. 算法设计](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#常用算法)
+	* [排序、查找算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#排序查找算法)
+		* [选择排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#选择排序)
+		* [冒泡排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#冒泡排序)
+		* [插入排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#插入排序)
+		* [快速排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#快速排序)
+		* [归并排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#归并排序)
+		* [希尔排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#希尔排序)
+		* [堆排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#堆排序)
+		* [计数排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#计数排序)
+		* [桶排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#桶排序)
+		* [基数排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#基数排序)
+		* [二分查找](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#二分查找)
+	* [布隆过滤器](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#布隆过滤器)
+	* [字符串比较](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#字符串比较)
+		* [KMP 算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#kmp-算法)
+	* [深度优先、广度优先](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#深度优先广度优先)
+	* [贪心算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#贪心算法)
+	* [回溯算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#回溯算法)
+	* [剪枝算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#剪枝算法)
+	* [动态规划](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#动态规划)
+	* [朴素贝叶斯](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#朴素贝叶斯)
+	* [推荐算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#推荐算法)
+	* [最小生成树算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#最小生成树算法)
+	* [最短路径算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#最短路径算法)
+
+
+
 
 * [Golang](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#Golang)
     * [协程](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#协程)
     * [坑和建议](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#坑和建议)
+
 * [数据结构](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#数据结构)
 	* [树](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#树)
 		* [二叉树](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#二叉树)
@@ -14,31 +62,6 @@
 		* [B，B+，B*树](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#b-bb树)
 		* [LSM 树](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#lsm-树)
 	* [BitSet](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#bitset)
-* [常用算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#常用算法)
-	* [排序、查找算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#排序查找算法)
-		* [选择排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#选择排序)
-		* [冒泡排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#冒泡排序)
-		* [插入排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#插入排序)
-		* [快速排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#快速排序)
-		* [归并排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#归并排序)
-		* [希尔排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#希尔排序)
-		* [堆排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#堆排序)
-		* [计数排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#计数排序)
-		* [桶排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#桶排序)
-		* [基数排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#基数排序)
-		* [二分查找](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#二分查找)
-	* [布隆过滤器](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#布隆过滤器)
-	* [字符串比较](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#字符串比较)
-		* [KMP 算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#kmp-算法)
-	* [深度优先、广度优先](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#深度优先广度优先)
-	* [贪心算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#贪心算法)
-	* [回溯算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#回溯算法)
-	* [剪枝算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#剪枝算法)
-	* [动态规划](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#动态规划)
-	* [朴素贝叶斯](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#朴素贝叶斯)
-	* [推荐算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#推荐算法)
-	* [最小生成树算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#最小生成树算法)
-	* [最短路径算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#最短路径算法)
 * [并发](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#并发)
 	* [多线程](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#多线程)
 	* [线程安全](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#线程安全)
@@ -177,16 +200,6 @@
 		* [SAML](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#saml)
 		* [双因素认证（2FA）](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#双因素认证2fa)
 		* [单点登录(SSO)](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#单点登录sso)
-* [常用开源框架](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#常用开源框架)
-	* [开源协议](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#开源协议)
-	* [日志框架](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#日志框架)
-		* [Log4j、Log4j2](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#log4jlog4j2)
-		* [Logback](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#logback)
-	* [ORM](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#orm)
-	* [网络框架](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#网络框架)
-	* [Web 框架](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#web-框架)
-		* [Spring 家族](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#spring-家族)
-	* [工具框架](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#工具框架)
 * [分布式设计](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#分布式设计)
 	* [扩展性设计](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#扩展性设计)
 	* [稳定性 &amp; 高可用](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#稳定性--高可用)
@@ -286,124 +299,6 @@ Hbase、LevelDB、Tair（Long DB）、nessDB 采用 LSM 树的结构。LSM可以
 * [《Java Bitset类》](http://www.runoob.com/java/java-bitset-class.html)
 * [《Java BitSet（位集）》](https://blog.csdn.net/caiandyong/article/details/51581160)
 
-# 常用算法
-
-* [《常见排序算法及对应的时间复杂度和空间复杂度》](https://blog.csdn.net/gane_cheng/article/details/52652705)
-
-## 排序、查找算法
-
-* [《常见排序算法及对应的时间复杂度和空间复杂度》](https://blog.csdn.net/gane_cheng/article/details/52652705)
-
-### 选择排序
-* [《Java中的经典算法之选择排序（SelectionSort）》](https://www.cnblogs.com/shen-hua/p/5424059.html)
-	* 每一趟从待排序的记录中选出最小的元素，顺序放在已排好序的序列最后，直到全部记录排序完毕。
-
-### 冒泡排序
-* [《冒泡排序的2种写法》](https://blog.csdn.net/shuaizai88/article/details/73250615)
-	* 相邻元素前后交换、把最大的排到最后。
-	* 时间复杂度 O(n²) 
-
-### 插入排序
-* [《排序算法总结之插入排序》](https://www.cnblogs.com/hapjin/p/5517667.html)
-
-### 快速排序
-* [《坐在马桶上看算法：快速排序》](https://blog.csdn.net/afjaklsdflka/article/details/52829030)
-	* 一侧比另外一侧都大或小。 
-### 归并排序
-* [《图解排序算法(四)之归并排序》](http://www.cnblogs.com/chengxiao/p/6194356.html)
-	* 分而治之，分成小份排序，在合并(重建一个新空间进行复制)。 
-
-### 希尔排序
-TODO
-
-### 堆排序
-* [《图解排序算法(三)之堆排序》](https://www.cnblogs.com/chengxiao/p/6129630.html)
-	* 排序过程就是构建最大堆的过程，最大堆：每个结点的值都大于或等于其左右孩子结点的值，堆顶元素是最大值。
-
-### 计数排序
-* [《计数排序和桶排序》](https://www.cnblogs.com/suvllian/p/5495780.html)
-	* 和桶排序过程比较像，差别在于桶的数量。
-
-### 桶排序
-* [《【啊哈！算法】最快最简单的排序——桶排序》](http://blog.51cto.com/ahalei/1362789)
-* [《排序算法（三）：计数排序与桶排序》](https://blog.csdn.net/sunjinshengli/article/details/70738527)
-	* 桶排序将[0,1)区间划分为n个相同的大小的子区间，这些子区间被称为桶。
-	* 每个桶单独进行排序，然后再遍历每个桶。
-
-### 基数排序
-
-按照个位、十位、百位、...依次来排。
-
-* [《排序算法系列：基数排序》](https://blog.csdn.net/lemon_tree12138/article/details/51695211)
-* [《基数排序》](https://www.cnblogs.com/skywang12345/p/3603669.html)
-
-
-### 二分查找
-* [《二分查找(java实现)》](https://www.cnblogs.com/coderising/p/5708632.html)
-	* 要求待查找的序列有序。
-	* 时间复杂度 O(logN)。
-
-* [《java实现二分查找-两种方式》](https://blog.csdn.net/maoyuanming0806/article/details/78176957)
-	* while + 递归。
-
-
-## 布隆过滤器
-
-常用于大数据的排重，比如email，url 等。
-核心原理：将每条数据通过计算产生一个指纹（一个字节或多个字节，但一定比原始数据要少很多），其中每一位都是通过随机计算获得，在将指纹映射到一个大的按位存储的空间中。注意：会有一定的错误率。
-优点：空间和时间效率都很高。
-缺点：随着存入的元素数量增加，误算率随之增加。
-
-* [《布隆过滤器 -- 空间效率很高的数据结构》](https://segmentfault.com/a/1190000002729689)
-* [《大量数据去重：Bitmap和布隆过滤器(Bloom Filter)》](https://blog.csdn.net/zdxiq000/article/details/57626464)
-* [《基于Redis的布隆过滤器的实现》](https://blog.csdn.net/qq_30242609/article/details/71024458)
-	* 基于 Redis 的 Bitmap 数据结构。
-* [《网络爬虫：URL去重策略之布隆过滤器(BloomFilter)的使用》](https://blog.csdn.net/lemon_tree12138/article/details/47973715)
-	* 使用Java中的 BitSet 类 和 加权和hash算法。
-
-## 字符串比较
-
-### KMP 算法
-KMP：Knuth-Morris-Pratt算法（简称KMP）
-核心原理是利用一个“部分匹配表”，跳过已经匹配过的元素。
-* [《字符串匹配的KMP算法》](http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html)
-
-## 深度优先、广度优先
-* [《广度优先搜索BFS和深度优先搜索DFS》](https://www.cnblogs.com/0kk470/p/7555033.html)
-
-## 贪心算法
-* [《算法：贪婪算法基础》](https://www.cnblogs.com/MrSaver/p/8641971.html)
-* [《常见算法及问题场景——贪心算法》](https://blog.csdn.net/a345017062/article/details/52443781)
-
-## 回溯算法
-* [《 五大常用算法之四：回溯法》](https://blog.csdn.net/qfikh/article/details/51960331)
-
-## 剪枝算法
-* [《α-β剪枝算法》](https://blog.csdn.net/luningcsdn/article/details/50930276)
-
-## 动态规划
-* [《详解动态规划——邹博讲动态规划》](https://www.cnblogs.com/little-YTMM/p/5372680.html)
-* [《动态规划算法的个人理解》](https://blog.csdn.net/yao_zi_jie/article/details/54580283)
-
-## 朴素贝叶斯
-
-* [《带你搞懂朴素贝叶斯分类算法》](https://blog.csdn.net/amds123/article/details/70173402)
-	* P(B|A)=P(A|B)P(B)/P(A)
-
-* [《贝叶斯推断及其互联网应用1》](http://www.ruanyifeng.com/blog/2011/08/bayesian_inference_part_one.html)
-* [《贝叶斯推断及其互联网应用2》](http://www.ruanyifeng.com/blog/2011/08/bayesian_inference_part_two.html)
-
-
-## 推荐算法
-* [《推荐算法综述》](http://www.infoq.com/cn/articles/recommendation-algorithm-overview-part01)
-* [《TOP 10 开源的推荐系统简介》](https://www.oschina.net/news/51297/top-10-open-source-recommendation-systems)
-
-## 最小生成树算法
-* [《算法导论--最小生成树（Kruskal和Prim算法）》](https://blog.csdn.net/luoshixian099/article/details/51908175)
-
-## 最短路径算法
-
-* [《Dijkstra算法详解》](https://blog.csdn.net/qq_35644234/article/details/60870719)
 
 # 并发
 
@@ -1234,37 +1129,6 @@ TODO
 * [CAS单点登录框架](https://github.com/apereo/cas)
 * [使用 Authing 实现单点登录](https://docs.authing.cn/authing/quickstart/implement-sso-with-authing)
 
-# 常用开源框架
-
-## 开源协议
-
-* [《开源协议的选择》](https://coderxing.gitbooks.io/architecture-evolution/chapter1/di-yi-zhang-ff1a-zhun-bei-qi-cheng/12-guan-yu-kai-yuan/123-kai-yuan-xie-yi-de-xuan-ze.html)
-
-* [如何选择一个开源软件协议](http://choosealicense.online/)
-
-## 日志框架
-
-### Log4j、Log4j2
-* [《log4j 详细讲解》](https://blog.csdn.net/u012422446/article/details/51199724)
-* [《log4j2 实际使用详解》](https://blog.csdn.net/vbirdbest/article/details/71751835)
-* [《Log4j1,Logback以及Log4j2性能测试对比》](https://my.oschina.net/OutOfMemory/blog/789267)
-	* Log4J 异步日志性能优异。 
-
-### Logback
-* [《最全LogBack 详解、含java案例和配置说明》](https://blog.csdn.net/rulon147/article/details/52620541)
-
-## ORM
-
-* [《ORM框架使用优缺点》](https://blog.csdn.net/sinat_34093604/article/details/53082000)
-	* 主要目的是为了提高开发效率。 
-
-**MyBatis：**
-
-* [《mybatis缓存机制详解》](https://www.cnblogs.com/winclpt/articles/7511672.html)
-	* 一级缓存是SqlSession级别的缓存，缓存的数据只在SqlSession内有效
-	* 二级缓存是mapper级别的缓存，同一个namespace公用这一个缓存，所以对SqlSession是共享的；使用 LRU 机制清理缓存，通过 cacheEnabled 参数开启。  
-
-* [《MyBatis学习之代码生成器Generator》](https://blog.csdn.net/baidu_32877851/article/details/53959268)
 
 ## 网络框架
 
