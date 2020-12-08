@@ -1,5 +1,6 @@
 <h1>《技术归纳》</h1>
 
+# 主题概览
 * 一. 算法 
 * 二. 数据结构
 * 三. 并发
@@ -11,7 +12,7 @@
 * 九. 监控
 * 十. 数据库
 * 十一. 网络
-* 十二. linux
+* 十二. Linux
 * 十三. 架构
 * 十四. 设计模式
 * 十五. 微服务
@@ -19,6 +20,8 @@
 * 十七. 安全
 
 ---------------
+
+# 详细目录
 * [一. 算法设计](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#常用算法)
 	* [排序、查找算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#排序查找算法)
 		* [选择排序](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#选择排序)
@@ -45,6 +48,44 @@
 	* [最小生成树算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#最小生成树算法)
 	* [最短路径算法](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO1-algorithm/README.md#最短路径算法)
 
+* [二. 数据结构](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO2-data-structure/README.md#数据结构)
+	* [树](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO2-data-structure/README.md#树)
+		* [二叉树](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO2-data-structure/README.md#二叉树)
+		* [完全二叉树](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO2-data-structure/README.md#完全二叉树)
+		* [平衡二叉树](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO2-data-structure/README.md#平衡二叉树)
+		* [二叉查找树（BST）](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO2-data-structure/README.md#二叉查找树bst)
+		* [红黑树](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO2-data-structure/README.md#红黑树)
+		* [B，B+，B*树](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO2-data-structure/README.md#b-bb树)
+		* [LSM 树](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO2-data-structure/README.md#lsm-树)
+		* [前缀树](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO2-data-structure/README.md#前缀树)
+	* [BitSet](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO2-data-structure/README.md#bitset)
+
+* [三. 并发](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#并发)
+	* [多线程](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#多线程)
+	* [线程安全](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#线程安全)
+	* [一致性、事务](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#一致性事务)
+		* [事务 ACID 特性](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#事务-acid-特性)
+		* [事务的隔离级别](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#事务的隔离级别)
+		* [MVCC](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#mvcc)
+	* [锁](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#锁)
+		* [公平锁 &amp; 非公平锁](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#公平锁--非公平锁)
+		* [悲观锁](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#悲观锁)
+		* [乐观锁 &amp; CAS](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#乐观锁--cas)
+		* [ABA 问题](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#aba-问题)
+		* [CopyOnWrite容器](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#copyonwrite容器)
+		* [RingBuffer](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#ringbuffer)
+		* [可重入锁 &amp; 不可重入锁](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#可重入锁--不可重入锁)
+		* [互斥锁 &amp; 共享锁](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#互斥锁--共享锁)
+		* [死锁](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO3-concurrent/README.md#死锁)
+
+* [四. 操作系统](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO4-operating-system/README.md#操作系统)
+	* [计算机原理](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO4-operating-system/README.md#计算机原理)
+	* [CPU](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO4-operating-system/README.md#cpu)
+		* [多级缓存](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO4-operating-system/README.md#多级缓存)
+	* [进程](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO4-operating-system/README.md#进程)
+	* [线程](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO4-operating-system/README.md#线程)
+	* [协程](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO4-operating-system/README.md#协程)
+	* [Linux](https://github.com/zhongxuan123/technology-of-induction/blob/master/NO4-operating-system/README.md#linux)
 
 
 
@@ -52,41 +93,6 @@
     * [协程](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#协程)
     * [坑和建议](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#坑和建议)
 
-* [数据结构](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#数据结构)
-	* [树](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#树)
-		* [二叉树](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#二叉树)
-		* [完全二叉树](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#完全二叉树)
-		* [平衡二叉树](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#平衡二叉树)
-		* [二叉查找树（BST）](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#二叉查找树bst)
-		* [红黑树](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#红黑树)
-		* [B，B+，B*树](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#b-bb树)
-		* [LSM 树](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#lsm-树)
-	* [BitSet](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#bitset)
-* [并发](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#并发)
-	* [多线程](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#多线程)
-	* [线程安全](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#线程安全)
-	* [一致性、事务](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#一致性事务)
-		* [事务 ACID 特性](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#事务-acid-特性)
-		* [事务的隔离级别](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#事务的隔离级别)
-		* [MVCC](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#mvcc)
-	* [锁](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#锁)
-		* [公平锁 &amp; 非公平锁](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#公平锁--非公平锁)
-		* [悲观锁](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#悲观锁)
-		* [乐观锁 &amp; CAS](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#乐观锁--cas)
-		* [ABA 问题](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#aba-问题)
-		* [CopyOnWrite容器](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#copyonwrite容器)
-		* [RingBuffer](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#ringbuffer)
-		* [可重入锁 &amp; 不可重入锁](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#可重入锁--不可重入锁)
-		* [互斥锁 &amp; 共享锁](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#互斥锁--共享锁)
-		* [死锁](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#死锁)
-* [操作系统](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#操作系统)
-	* [计算机原理](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#计算机原理)
-	* [CPU](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#cpu)
-		* [多级缓存](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#多级缓存)
-	* [进程](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#进程)
-	* [线程](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#线程)
-	* [协程](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#协程)
-	* [Linux](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#linux)
 * [设计模式](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#设计模式)
 	* [设计模式的六大原则](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#设计模式的六大原则)
 	* [23种常见设计模式](https://github.com/zhongxuan123/technology-of-induction/blob/master/README.md#23种常见设计模式)
@@ -242,221 +248,6 @@
 
 ### 坑与建议
 * [《我希望知道Go中的3个陷阱》](https://medium.com/@yossishmueli/3-pitfalls-in-golang-i-wish-i-knew-3f208a8402a7)
-
-# 数据结构
-
-## 树
-
-### 二叉树
-
-每个节点最多有两个叶子节点。
-*  [《二叉树》](https://blog.csdn.net/cai2016/article/details/52589952)
-
-### 完全二叉树
-* [《完全二叉树》](https://baike.baidu.com/item/%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91/7773232?fr=aladdin)
-	* 叶节点只能出现在最下层和次下层，并且最下面一层的结点都集中在该层最左边的若干位置的二叉树。
-
-### 平衡二叉树
-左右两个子树的高度差的绝对值不超过1，并且左右两个子树都是一棵平衡二叉树。
-* [《浅谈数据结构-平衡二叉树》](http://www.cnblogs.com/polly333/p/4798944.html)
-* [《浅谈算法和数据结构: 八 平衡查找树之2-3树》](http://www.cnblogs.com/yangecnu/p/Introduce-2-3-Search-Tree.html)
-
-### 二叉查找树（BST）
-二叉查找树（Binary Search Tree），也称有序二叉树（ordered binary tree）,排序二叉树（sorted binary tree）。
-
-* [《浅谈算法和数据结构: 七 二叉查找树》](http://www.cnblogs.com/yangecnu/p/Introduce-Binary-Search-Tree.html)
-
-
-### 红黑树
-* [《最容易懂得红黑树》](https://blog.csdn.net/sun_tttt/article/details/65445754)
-	* 添加阶段后，左旋或者右旋从而再次达到平衡。 
-* [《浅谈算法和数据结构: 九 平衡查找树之红黑树》](http://www.cnblogs.com/yangecnu/p/Introduce-Red-Black-Tree.html)
-
-### B，B+，B*树
-MySQL是基于B+树聚集索引组织表
-
-* [《B-树，B+树，B\*树详解》](https://blog.csdn.net/aqzwss/article/details/53074186)
-* [《B-树，B+树与B\*树的优缺点比较》](https://blog.csdn.net/bigtree_3721/article/details/73632405)
-	* B+树的叶子节点链表结构相比于 B-树便于扫库，和范围检索。
-### LSM 树
-
-LSM（Log-Structured Merge-Trees）和 B+ 树相比，是牺牲了部分读的性能来换取写的性能(通过批量写入)，实现读写之间的平衡。
-Hbase、LevelDB、Tair（Long DB）、nessDB 采用 LSM 树的结构。LSM可以快速建立索引。
-
-* [《LSM树 VS B+树》](https://blog.csdn.net/dbanote/article/details/8897599)
-	* B+ 树读性能好，但由于需要有序结构，当key比较分散时，磁盘寻道频繁，造成写性能较差。
-	* LSM 是将一个大树拆分成N棵小树，先写到内存（无寻道问题，性能高），在内存中构建一颗有序小树（有序树），随着小树越来越大，内存的小树会flush到磁盘上。当读时，由于不知道数据在哪棵小树上，因此必须遍历（二分查找）所有的小树，但在每颗小树内部数据是有序的。
-	
-* [《LSM树（Log-Structured Merge Tree）存储引擎》](https://blog.csdn.net/u014774781/article/details/52105708)
-	* 极端的说，基于LSM树实现的HBase的写性能比MySQL高了一个数量级，读性能低了一个数量级。
-	* 优化方式：Bloom filter 替代二分查找；compact 小数位大树，提高查询性能。
-	* Hbase 中，内存中达到一定阈值后，整体flush到磁盘上、形成一个文件（B+数），HDFS不支持update操作，所以Hbase做整体flush而不是merge update。flush到磁盘上的小树，定期会合并成一个大树。
-
-## BitSet
-
-经常用于大规模数据的排重检查。
-
-* [《Java Bitset类》](http://www.runoob.com/java/java-bitset-class.html)
-* [《Java BitSet（位集）》](https://blog.csdn.net/caiandyong/article/details/51581160)
-
-
-# 并发
-
-
-## 多线程
-
-* [《40个Java多线程问题总结》](https://www.cnblogs.com/xrq730/p/5060921.html)
-
-## 线程安全
-
-* [《Java并发编程——线程安全及解决机制简介》](https://www.cnblogs.com/zhanht/p/5450325.html)
-
-## 一致性、事务
-
-### 事务 ACID 特性
-* [《数据库事务ACID特性》](https://blog.csdn.net/u012440687/article/details/52116108)
-
-### 事务的隔离级别
-
-* 未提交读：一个事务可以读取另一个未提交的数据，容易出现脏读的情况。
-* 读提交：一个事务等另外一个事务提交之后才可以读取数据，但会出现不可重复读的情况（多次读取的数据不一致），读取过程中出现UPDATE操作，会多。（大多数数据库默认级别是RC，比如SQL Server，Oracle），读取的时候不可以修改。
-* 可重复读： 同一个事务里确保每次读取的时候，获得的是同样的数据，但不保障原始数据被其他事务更新（幻读），Mysql InnoDB 就是这个级别。
-* 序列化：所有事物串行处理（牺牲了效率）
-
-* [《理解事务的4种隔离级别》](https://blog.csdn.net/qq_33290787/article/details/51924963)
-* [数据库事务的四大特性及事务隔离级别](https://www.cnblogs.com/z-sm/p/7245981.html)
-
-* [《MySQL的InnoDB的幻读问题 》](http://blog.sina.com.cn/s/blog_499740cb0100ugs7.html)
-	* 幻读的例子非常清楚。
-	* 通过 SELECT ... FOR UPDATE 解决。
-	
-* [《一篇文章带你读懂MySQL和InnoDB》](https://draveness.me/mysql-innodb)
-	* 图解脏读、不可重复读、幻读问题。
-
-
-### MVCC
-
-
-* [《【mysql】关于innodb中MVCC的一些理解》](https://www.cnblogs.com/chenpingzhao/p/5065316.html)
-	* innodb 中 MVCC 用在 Repeatable-Read 隔离级别。
-	* MVCC 会产生幻读问题（更新时异常。）
-
-* [《轻松理解MYSQL MVCC 实现机制》](https://blog.csdn.net/whoamiyang/article/details/51901888)
-
-	* 通过隐藏版本列来实现 MVCC 控制，一列记录创建时间、一列记录删除时间，这里的时间
-	* 每次只操作比当前版本小（或等于）的 行。
-	
-
-
-## 锁
-
-### 公平锁 & 非公平锁
-
-公平锁的作用就是严格按照线程启动的顺序来执行的，不允许其他线程插队执行的；而非公平锁是允许插队的。
-
-* [《公平锁与非公平锁》](https://blog.csdn.net/EthanWhite/article/details/55508357)
-	* 默认情况下 ReentrantLock 和 synchronized 都是非公平锁。ReentrantLock 可以设置成公平锁。
-
-### 悲观锁 
-
-悲观锁如果使用不当（锁的条数过多），会引起服务大面积等待。推荐优先使用乐观锁+重试。
-
-* [《【MySQL】悲观锁&乐观锁》](https://www.cnblogs.com/zhiqian-ali/p/6200874.html)
-	* 乐观锁的方式：版本号+重试方式
-	* 悲观锁：通过 select ... for update 进行行锁(不可读、不可写，share 锁可读不可写)。
-
-* [《Mysql查询语句使用select.. for update导致的数据库死锁分析》](https://www.cnblogs.com/Lawson/p/5008741.html)
-	* mysql的innodb存储引擎实务锁虽然是锁行，但它内部是锁索引的。
-	* 锁相同数据的不同索引条件可能会引起死锁。
-	
-* [《Mysql并发时经典常见的死锁原因及解决方法》](https://www.cnblogs.com/zejin2008/p/5262751.html)
-
-### 乐观锁 & CAS
-
-* [《乐观锁的一种实现方式——CAS》](https://blog.csdn.net/u011514810/article/details/76895723/)
-	* 和MySQL乐观锁方式相似，只不过是通过和原值进行比较。	 
-
-### ABA 问题
-
-由于高并发，在CAS下，更新后可能此A非彼A。通过版本号可以解决，类似于上文Mysql 中提到的的乐观锁。
-
-* [《Java CAS 和ABA问题》](https://www.cnblogs.com/549294286/p/3766717.html)
-* [《Java 中 ABA问题及避免》](https://blog.csdn.net/li954644351/article/details/50511879)
-	* AtomicStampedReference 和 AtomicStampedReference。 
-
-### CopyOnWrite容器
-
-可以对CopyOnWrite容器进行并发的读，而不需要加锁。CopyOnWrite并发容器用于读多写少的并发场景。比如白名单，黑名单，商品类目的访问和更新场景，不适合需要数据强一致性的场景。
-
-* [《JAVA中写时复制(Copy-On-Write)Map实现》](https://www.cnblogs.com/hapjin/p/4840107.html)
-	* 实现读写分离，读取发生在原始数据上，写入发生在副本上。  
-	* 不用加锁，通过最终一致实现一致性。
-	
-* [《聊聊并发-Java中的Copy-On-Write容器》](https://blog.csdn.net/a494303877/article/details/53404623)
-
-### RingBuffer 
-* [《线程安全的无锁RingBuffer的实现【一个读线程，一个写线程】》](http://www.cnblogs.com/l00l/p/4115001.html)
-
-### 可重入锁 & 不可重入锁
-
-* [《可重入锁和不可重入锁》](https://www.cnblogs.com/dj3839/p/6580765.html)
-	* 通过简单代码举例说明可重入锁和不可重入锁。
-	* 可重入锁指同一个线程可以再次获得之前已经获得的锁。
-	* 可重入锁可以用户避免死锁。
-	* Java中的可重入锁：synchronized 和 java.util.concurrent.locks.ReentrantLock
-
-* [《ReenTrantLock可重入锁（和synchronized的区别）总结》](https://www.cnblogs.com/baizhanshi/p/7211802.html)
-	* synchronized 使用方便，编译器来加锁，是非公平锁。
-	* ReenTrantLock 使用灵活，锁的公平性可以定制。
-	* 相同加锁场景下，推荐使用 synchronized。
-
-### 互斥锁 & 共享锁
-
-互斥锁：同时只能有一个线程获得锁。比如，ReentrantLock 是互斥锁，ReadWriteLock 中的写锁是互斥锁。
-共享锁：可以有多个线程同时或的锁。比如，Semaphore、CountDownLatch 是共享锁，ReadWriteLock 中的读锁是共享锁。
-
-* [《ReadWriteLock场景应用》](https://www.cnblogs.com/liang1101/p/6475555.html)
-
-### 死锁
-* [《“死锁”四个必要条件的合理解释》](https://blog.csdn.net/yunfenglw/article/details/45950305)
-	* 互斥、持有、不可剥夺、环形等待。
-* [Java如何查看死锁？](https://blog.csdn.net/u014039577/article/details/52351626)
-	* JConsole 可以识别死锁。
-	
-* [java多线程系列：死锁及检测](https://blog.csdn.net/bohu83/article/details/51135061)
-	* jstack 可以显示死锁。
-	
-# 操作系统
-
-## 计算机原理
-
-* [《操作系统基础知识——操作系统的原理，类型和结构》](https://segmentfault.com/a/1190000003692840)
-
-## CPU
-
-### 多级缓存
-典型的 CPU 有三级缓存，距离核心越近，速度越快，空间越小。L1 一般 32k，L2 一般 256k，L3 一般12M。内存速度需要200个 CPU 周期，CPU 缓存需要1个CPU周期。
-
-* [《从Java视角理解CPU缓存和伪共享》](https://blog.csdn.net/zero__007/article/details/54089730)
-
-## 进程
-
-TODO
-
-## 线程
-
-* [《线程的生命周期及状态转换详解》](https://blog.csdn.net/asdf_1024/article/details/78978437)
-
-## 协程
-
-* [《终结python协程----从yield到actor模型的实现》](https://www.thinksaas.cn/group/topic/839375/)
-	* 线程的调度是由操作系统负责，协程调度是程序自行负责
-	* 与线程相比，协程减少了无谓的操作系统切换.
-	* 实际上当遇到IO操作时做切换才更有意义，（因为IO操作不用占用CPU），如果没遇到IO操作，按照时间片切换.
-	
-## Linux
-
-* [《Linux 命令大全》](http://www.runoob.com/linux/linux-command-manual.html)
 
 # 设计模式
 
