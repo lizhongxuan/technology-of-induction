@@ -95,7 +95,13 @@
     
 ## golang
 * [Golang](https://github.com/zhongxuan123/technology-of-induction/blob/master/No6-golang/README.md#Golang)
-    * [协程](https://github.com/zhongxuan123/technology-of-induction/blob/master/No6-golang/README.md#协程)
+    * [关键字底层原理](https://github.com/zhongxuan123/technology-of-induction/blob/master/No6-golang/README.md#关键字底层原理)
+    * [goroutine](https://github.com/zhongxuan123/technology-of-induction/blob/master/No6-golang/README.md#goroutine)
+    * [gc](https://github.com/zhongxuan123/technology-of-induction/blob/master/No6-golang/README.md#gc)
+    * [调试/测试](https://github.com/zhongxuan123/technology-of-induction/blob/master/No6-golang/README.md#调试/测试)
+    * [内存](https://github.com/zhongxuan123/technology-of-induction/blob/master/No6-golang/README.md#内存)    
+    * [指针](https://github.com/zhongxuan123/technology-of-induction/blob/master/No6-golang/README.md#指针)    
+    * [runtime](https://github.com/zhongxuan123/technology-of-induction/blob/master/No6-golang/README.md#runtime)         
     * [坑和建议](https://github.com/zhongxuan123/technology-of-induction/blob/master/No6-golang/README.md#坑和建议)
 
 ## 中间件
