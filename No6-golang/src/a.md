@@ -45,7 +45,7 @@ Wait()执行时立马就满足了WaitGroup的计数器为0，Wait结束，主程
 Add函数一定要在Wait函数执行前执行
 ``` golang
 for i := 0; i < 10; i++ {
-		wg.Add(1)
-		go child(wg, i)
+    wg.Add(1)
+    go child(wg, i)
 }
 ```
